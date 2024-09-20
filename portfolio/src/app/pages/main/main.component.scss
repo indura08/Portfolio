@@ -2,8 +2,8 @@
     font-size: 180px;
     font-weight: 400;
     font-family: "Gloock";
-    background: linear-gradient(45deg, #fff1eb, #ace0f9 );
-    //background: linear-gradient(45deg, #8e44ad, #00d2ff);
+    //background: linear-gradient(45deg, #fff1eb, #ace0f9 );
+    background: linear-gradient(45deg, #ffffff, #a0ffa9);
     /*background: linear-gradient(45deg, #8e44ad, #1abc9c)*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -28,5 +28,8 @@
 }
 
 .project-component{
-    background: linear-gradient(90deg, #e74c3c, #f1c40f);
+    //background: linear-gradient(90deg, #ffffff, #a1ffaa) ;
+    font-family: "Playfair Display";
+    font-weight: 800;
+    background: linear-gradient(45deg, #ffffff, #ffc5bd);
 }
