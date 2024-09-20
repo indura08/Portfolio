@@ -1,16 +1,32 @@
 .gradient-text {
-    font-size: 150px;
-    font-weight: bold;
-    font-family: "Playfair Display";
-    background: linear-gradient(90deg, #fff1eb, #ace0f9 );
+    font-size: 180px;
+    font-weight: 400;
+    font-family: "Gloock";
+    background: linear-gradient(45deg, #fff1eb, #ace0f9 );
+    //background: linear-gradient(45deg, #8e44ad, #00d2ff);
+    /*background: linear-gradient(45deg, #8e44ad, #1abc9c)*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .main-div{
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(0, 0, 0);
     color: white;
-    height:300px;
-    font-family: "Playfair Display";
+    height:500px;
     font-weight: 500;
+}
+
+.what-i-do {
+    font-family: "Playfair Display";
+    font-size: 30px;
+}
+
+.div-2-image{
+    width:300px;
+    height:400px;
+    border-radius: 290px;
+}
+
+.project-component{
+    background: linear-gradient(90deg, #e74c3c, #f1c40f);
 }
