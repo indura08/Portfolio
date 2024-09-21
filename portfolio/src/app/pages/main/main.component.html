@@ -48,10 +48,11 @@
 
     <div class="main-div mt-1 d-flex flex-column" style="height: 800px;">
         <div class="mt-5">
-            <p class="text-center fw-lighter" style="font-family: Figtree; font-size: 120px; letter-spacing: 60px;">PROJECTS</p>
+            <p data-aos="fade-right" class="text-center fw-lighter" style="font-family: Figtree; font-size: 120px; letter-spacing: 60px;">
+              <span data-aos="fade-right">PROJ</span><span data-aos="fade-left">ECTS</span></p>
         </div>
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-aos="fade-left">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -62,12 +63,21 @@
               <div class="carousel-item active">
                 <div class="row py-5 mx-3">
                   <div class="col-md-4">
-                    <div class="card project-component" style="height: 250px;">
+                    <div class="card project-component" style="height: 350px;">
                       <div class="card-body">
                         <h3 class="card-title text-center">NourishNet</h3>
                         <p class="card-text">NourishNet is a platform that connects food donors with recipients to 
                             reduce waste and promote sustainability. Donors can easily share surplus food, while 
-                            recipients can request and collect it efficiently.</p>
+                            recipients can request and collect it efficiently.
+                          <!-- Tech stack: ASP.NET core with Entity Framework Core, React with TypeScript, Redux, Bootstrap, Mysql, PostMan--></p> 
+                          <div class="d-flex mb-4 justify-content-center"> 
+                            <img src="assets/dotnet.svg" class="project-icon mx-1">
+                            <img src="assets/react.png" class="project-icon mx-1">
+                            <img src="assets/redux.png" class="project-icon mx-1">
+                            <img src="assets/bootstrap.png" class="project-icon mx-1" style="width: 50px;">
+                            <img src="assets/typescript.svg" class="project-icon mx-1">
+                            <img src="assets/mysql.png" class="project-icon mx-1">
+                          </div>
                         <div class="d-flex">
                             <a href="https://github.com/indura08/NourishNet-Web-Application" target="_blank" class="btn btn-dark mx-4">View in GitHub</a>
                             <a href="#" class="btn btn-dark mx-2">View in LinkedIn</a>
@@ -76,25 +86,41 @@
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="card project-component" style="height: 250px;">
+                    <div class="card project-component" style="height: 350px;">
                       <div class="card-body">
-                        <h5 class="card-title">Card 2 title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h3 class="card-title text-center">Workiez</h3>
+                        <p class="card-text">Workiez connects users who need tasks done with skilled workers. 
+                          Normal users can post jobs, while worker users can browse and apply. Once an 
+                          application is approved, the worker completes the task on-site.
+                        </p>
+
+                        <div class="d-flex mb-4 justify-content-center">
+                          <img src="assets/spring.png" class="project-icon mx-2"/>
+                          <img src="assets/angular.png" class="project-icon mx-2">
+                          <img src="assets/psotgre.png" class="project-icon mx-1" style="width: 80px; height: 50px;;">
+                          <img src="assets/bootstrap.png" class="project-icon mx-1" style="width: 50px;">
+                        </div>
                         <div class="d-flex">
-                            <a href="#" class="btn btn-dark mx-4">Go somewhere</a>
-                            <a href="#" class="btn btn-dark mx-2">Go somewhere</a>
+                            <a href="https://github.com/indura08/Workiez-Web-Application-Project" target="_blank" class="btn btn-dark mx-4">View In GitHub</a>
+                            <a href="#" class="btn btn-dark mx-2">View In LinkedIn</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="card project-component" style="height: 250px;">
+                    <div class="card project-component" style="height: 350px;">
                       <div class="card-body">
-                        <h5 class="card-title">Card 3 title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h3 class="text-center card-title">AuctionX</h3>
+                        <p class="card-text">AuctionX is a platform where users can list items for auction, and 
+                          buyers can place bids in real-time. Sellers manage listings, while buyers compete for the best 
+                          price until the auction closes.</p>
+                          <div class="d-flex mb-3 align-items-center justify-content-center">
+                              <img src="assets/dotnet.svg" class="project-icon">
+                          </div>
+
                         <div class="d-flex">
-                            <a href="#" class="btn btn-dark mx-4">Go somewhere</a>
-                            <a href="#" class="btn btn-dark mx-2">Go somewhere</a>
+                            <a href="https://github.com/indura08/AuctionX-A-bidding-platform-ASP.NET-Web-Application-" class="btn btn-dark mx-4">View In GitHub</a>
+                            <a href="#" class="btn btn-dark mx-2">View In LinkedIn</a>
                         </div>
                       </div>
                     </div>
@@ -105,37 +131,61 @@
               <div class="carousel-item">
                 <div class="row py-5 mx-3">
                   <div class="col-md-4">
-                    <div class="card project-component" style="height: 250px;">
+                    <div class="card project-component" style="height: 350px;">
                       <div class="card-body">
-                        <h5 class="card-title">Card 4 title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h3 class="text-center card-title">Simple Employee Management System</h3>
+                        <p class="card-text">A simple Employee Management System that allows users to store 
+                          employee details and perform CRUD operations for employee records efficiently.</p>
+
+                        <div class="d-flex mb-4 justify-content-center">
+                          <img src="assets/spring.png" class="project-icon mx-2"/>
+                          <img src="assets/angular.png" class="project-icon mx-2">
+                          <img src="assets/mysql.png" class="project-icon mx-2">
+                          <img src="assets/bootstrap.png" class="project-icon mx-2" style="width: 50px;">
+                        </div>
                         <div class="d-flex">
-                            <a href="#" class="btn btn-primary mx-4">Go somewhere</a>
-                            <a href="#" class="btn btn-primary mx-2">Go somewhere</a>
+                            <a href="https://github.com/indura08/Employee-Management-Application-SpringBoot-Angular" class="btn btn-dark mx-4">View In GitHub</a>
+                            <a href="#" class="btn btn-dark mx-2">View In LinkedIn</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="card project-component" style="height: 250px;">
+                    <div class="card project-component" style="height: 350px;">
                       <div class="card-body">
-                        <h5 class="card-title">Card 5 title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h3 class="text-center card-title">ClothinX</h3>
+                        <p class="card-text">An e-commerce platform for men's clothing, allowing users to register, 
+                          browse products by category (shirts, trousers, etc.), add items to the cart, and checkout with 
+                          Stripe payment integration.</p>
+
+                        <div class="d-flex justify-content-center mb-4">
+                          <img src="assets/mongo.png" class="project-icon mx-2"/>
+                          <img src="assets/react.png" class="project-icon mx-2"/>
+                          <img src="assets/node.png" class="project-icon mx-2"/>
+                          <img src="assets/express.png" class="project-icon mx-2"/>
+                        </div>
                         <div class="d-flex">
-                            <a href="#" class="btn btn-primary mx-4">Go somewhere</a>
-                            <a href="#" class="btn btn-primary mx-2">Go somewhere</a>
+                            <a href="https://github.com/indura08/ClothinX-project-frontend" class="btn btn-dark mx-4">View Frontend</a>
+                            <a href="https://github.com/indura08/ClothinX-project-Backend" class="btn btn-dark mx-2">View Backend</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="card v">
-                      <div class="card-body project-component" style="height: 250px;">
-                        <h5 class="card-title">Card 6 title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <div class="d-flex">
-                            <a href="#" class="btn btn-primary mx-4">Go somewhere</a>
-                            <a href="#" class="btn btn-primary mx-2">Go somewhere</a>
+                      <div class="card-body project-component" style="height: 350px;">
+                        <h3 class="text-center card-title">StudyMates</h3>
+                        <p class="card-text">Studymates is a platform for students to collaborate in 
+                          virtual chatrooms. It enables users to share study materials like notes and 
+                          textbooks, making group study sessions more organized, interactive, and efficient.</p>
+                        
+                          <div class="d-flex mb-4 justify-content-center">
+                            <img src="assets/python.png" class="project-icon mx-2"/>
+                            <img src="assets/django.png" class="project-icon mx-2"/>
+                          </div>
+                          <div class="d-flex">
+                            <a href="https://github.com/indura08/Studymates-django-practice-project" class="btn btn-dark mx-4">View In GitHub</a>
+                            <a href="#" class="btn btn-dark mx-2">View In LinkedIn</a>
                         </div>
                       </div>
                     </div>
@@ -146,40 +196,52 @@
               <div class="carousel-item">
                 <div class="row py-5 mx-3">
                   <div class="col-md-4">
-                    <div class="card project-component" style="height: 250px;">
+                    <div class="card project-component" style="height: 350px;">
                       <div class="card-body">
-                        <h5 class="card-title">Card 7 title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h3 class="card-title text-center">Project To Learn Docker</h3>
+                        <p class="card-text">A simple CRUD app for managing contact details to learn Docker, focusing on creating images, running containers, and pushing images to Docker Hub for hands-on Docker experience</p>
+                        
+                        <div class="d-flex mb-4 justify-content-center">
+                          <img src="assets/flask.png" class="project-icon mx-2"/>
+                          <img src="assets/python.png" class="project-icon mx-2"/>
+                          <img src="assets/react.png" class="project-icon mx-2"/>
+                          <img src="assets/docker.png" class="project-icon mx-2" style="width: 50px;"/>
+                        </div>
                         <div class="d-flex">
-                            <a href="#" class="btn btn-primary mx-4">Go somewhere</a>
-                            <a href="#" class="btn btn-primary mx-2">Go somewhere</a>
+                            <a href="https://github.com/indura08/Pyhton-flask-React-simple-CRUD-application" class="btn btn-dark mx-4">View In GitHub</a>
+                            <a href="#" class="btn btn-dark mx-2">View LinkedIn</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="card project-component" style="height: 250px;">
+                    <div class="card project-component" style="height: 350px;">
                       <div class="card-body">
-                        <h5 class="card-title">Card 8 title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h3 class="card-title text-center">GitLab CI/CD</h3>
+                        <p class="card-text">I developed a simple React project to learn GitLab CI/CD pipelines, focusing on automating builds, testing, and deployment processes to enhance my understanding of continuous integration and delivery workflows.</p>
+                        <div class="d-flex mb-4 justify-content-center">
+                          <img src="assets/gitlab.png" class="project-icon mx-2"/>
+                          <img src="assets/react.png" class="project-icon mx-2"/>
+                        </div>
+                        
                         <div class="d-flex">
-                            <a href="#" class="btn btn-primary mx-4">Go somewhere</a>
-                            <a href="#" class="btn btn-primary mx-2">Go somewhere</a>
+                            <a href="https://gitlab.com/indura1/first-gitlab-project" class="btn btn-dark mx-4">View In GitLab</a>
+                            <a href="#" class="btn btn-dark mx-2">View In LinkedIn</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="card project-component" style="height: 250px;">
+                    <!-- <div class="card project-component" style="height: 350px;">
                       <div class="card-body">
                         <h5 class="card-title">Card 9 title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <div class="d-flex">
-                            <a href="#" class="btn btn-primary mx-4">Go somewhere</a>
-                            <a href="#" class="btn btn-primary mx-2">Go somewhere</a>
+                            <a href="#" class="btn btn-dark mx-4">Go somewhere</a>
+                            <a href="#" class="btn btn-dark mx-2">Go somewhere</a>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
