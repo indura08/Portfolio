@@ -15,6 +15,7 @@
     color: white;
     height:500px;
     font-weight: 500;
+    overflow: hidden;
 }
 
 .what-i-do {
@@ -56,8 +57,8 @@
 }
 
 .skill-div-icon{
-    width: 90px;
-    height:90px;
+    width: 80px;
+    height:80px;
 }
 
 .skill-icon-div {
@@ -73,9 +74,39 @@
 
 @keyframes scroll {
     0%{
-        transform: translateX(1%);
+        transform: translateX(100%);
     }
     100% {
         transform: translateX(-100%);
     }
+}
+
+.about-me-divs{
+    // background: linear-gradient(90deg, black, #414141);
+    background-color: rgb(14, 14, 14);
+    border-radius: 20px;
+    color: grey;
+}
+
+.about-me-divs:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.custom-button{
+    width:70%;
+    height:50px;
+    color:grey;
+    background-color: transparent;
+    border-color: grey;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.custom-button:hover{
+    color:white;
+    border-color: white;
 }
