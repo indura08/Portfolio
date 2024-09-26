@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "dist/portfolio/**/*",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/dist/portfolio/index.html"
+      }
+    ]
+  }
+  
