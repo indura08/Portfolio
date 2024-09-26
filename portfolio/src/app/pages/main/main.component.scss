@@ -6,6 +6,156 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.main-container{
+    width: 100%;
+}
+
+@media(max-width: 932px){
+    .hello-div{
+        height: 280px !important;
+        width: 100% !important;
+        
+    }
+    .hello-div .mx-4{
+        font-size: 50px !important;
+        margin: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    #firstdiv{
+        display: flex !important;
+        // flex-direction: column !important;
+        align-items:center;
+        justify-content: center;
+        height:160px !important;
+    }
+
+    #secondmaindiv{
+        font-size: 10px !important;
+        margin-right: 4px !important;
+    }
+
+    #secondmaindiv-sub{
+        font-size: 10px !important;
+        margin-right: 0 !important;
+    }
+
+    #firstdivsub{
+        display: flex !important;
+        // flex-direction: column !important;
+        align-items:center !important;
+        justify-content: center !important;
+        margin-left: 30px !important;
+        height:160px !important;
+        font-size: 40px !important;
+    }
+
+    #thirddivContainer{
+        height: 530px;;
+    }
+
+    #thirdDiv{
+        font-size: 10px !important;
+        position: relative !important;
+    }
+
+    #thirdDivImg{
+        opacity: 0.5 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    #projects{
+        height:1270px !important;
+    }
+
+    #projects1{
+        font-size: 50px !important;
+        letter-spacing: 10px !important;
+    }
+
+    #cardComponent{
+        height: 350px !important;
+        font-size: 15px !important;
+        margin-bottom: 10px !important;
+    }
+
+    #skills{
+
+    }
+
+    #skills1{
+        font-size: 50px !important;
+        letter-spacing: 10px !important;
+    }
+
+    .skill-div-icon{
+        height: 50px !important;
+        width: 50px !important;
+    }
+
+    #aboutMe{
+        height: 2200px !important;
+        text-align: center;
+    }
+
+    #aboutMe1{
+        font-size: 50px !important;
+    }
+
+    #aboutMe2{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    #aboutMe2-1{
+        width: 340px !important;
+        color: rgb(202, 202, 202);
+    }
+
+    #aboutMe2-2{
+        width: 340px !important;
+        color: rgb(180, 180, 180);
+    }
+
+    .custom-button{
+        color: white;
+    }
+
+    #footer{
+        height: 630px !important;
+    }
+
+    #footer1{
+        font-size: 40px !important;
+        text-align: center;
+    }
+
+    #footer2{
+        width:350px !important;
+    }
+
+    .social {
+        margin-right: 40px !important;
+    }
+
+    #footer2-p{
+        font-size: 25px !important;
+        color: black !important;
+        font-weight: 400 !important;
+        margin-right: 30px !important;
+        margin-top: 10px !important;
+        margin-left: 30px !important;
+    }
+
+    #footer-main-p{
+        font-size: 17px !important;
+    }
+}
 
 .hello-div{
     background-color: black;
@@ -64,7 +214,7 @@
     //background: linear-gradient(90deg, #ffffff, #a1ffaa) ;
     font-family: Figtree;
     font-weight: 400;
-    background: linear-gradient(45deg, #ffffff, #ffc5bd);
+    background: linear-gradient(45deg, #ffffff, #fbff22);
 }
 
 .custom-div{
@@ -211,7 +361,6 @@
     width:100%;
     height:50px;
     color:grey;
-    background-color: transparent;
     border-color: grey;
     cursor: pointer;
     display: flex; 
