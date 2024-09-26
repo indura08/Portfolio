@@ -17,3 +17,20 @@ $weight: 100;
     color:inherit;
     text-decoration: none;
 }
+
+@media(max-width: 932px){
+    .custom-img{
+        height:30px !important;
+        width: 50px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .main-div{
+        height: 40px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    
+}
